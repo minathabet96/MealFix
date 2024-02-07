@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MealFix</string>
+    <string name="home">home</string>
+    <string name="search">search</string>
+    <string name="calender">calender</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appName">MealFix</string>
+    <string name="googleSignin">Sign in with Google</string>
+    <string name="emailSignIn">Sign in with Email</string>
+    <string name="noAcc">Don\'t have an account?</string>
+    <string name="Signup">Sign up</string>
+    <string name="password">Password</string>
+    <string name="name">Username</string>
+    <string name="signin">Sign in</string>
+    <string name="confirmPass">Confirm Password</string>
+    <string name="signup">Sign up</string>
+    <string name="favorites">Favorites</string>
+    <string name="signout">Sign out</string>
+</resources>

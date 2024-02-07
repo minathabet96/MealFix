@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#025464"
+    tools:context=".LoginRegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="106dp"
+        android:src="@drawable/lunch_dining"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signin_google_btn"
+        android:layout_width="225dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#EBEBEB"
+        android:drawableLeft="@drawable/google_icon"
+        android:fontFamily="@font/baloo_tamma"
+        android:text="@string/googleSignin"
+        android:textColor="@color/Primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/signin_email_btn"
+        android:layout_width="225dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="33dp"
+        android:backgroundTint="@color/Secondary"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:fontFamily="@font/baloo_tamma"
+        android:text="@string/emailSignIn"
+        android:textColor="@color/Primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signin_google_btn" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/baloo_tamma"
+        android:text="@string/noAcc"
+        android:textColor="@color/Secondary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signin_email_btn" />
+
+    <TextView
+        android:id="@+id/signup_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:fontFamily="@font/baloo_tammudu"
+
+        android:text="@string/Signup"
+        android:textColor="@color/Secondary"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/signin_email_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

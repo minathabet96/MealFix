@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Primary"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="106dp"
+        android:src="@drawable/lunch_dining"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/username_txtField"
+        android:layout_width="225dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#EBEBEB"
+        android:ems="10"
+        android:fontFamily="@font/baloo_tamma"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:textColor="@color/Secondary"
+        android:textColorHint="@color/Secondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/Password_txtField"
+        android:layout_width="225dp"
+        android:layout_height="65dp"
+
+        android:layout_marginTop="31dp"
+        android:backgroundTint="#EBEBEB"
+        android:ems="10"
+        android:fontFamily="@font/baloo_tamma"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/Secondary"
+        android:textColorHint="@color/Secondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_txtField"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/confirmPassword_txtField"
+        android:layout_width="225dp"
+        android:layout_height="65dp"
+
+        android:layout_marginTop="31dp"
+        android:backgroundTint="#EBEBEB"
+        android:ems="10"
+        android:fontFamily="@font/baloo_tamma"
+        android:hint="@string/confirmPass"
+        android:inputType="textPassword"
+        android:textColor="@color/Secondary"
+        android:textColorHint="@color/Secondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password_txtField" />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#EBEBEB"
+        android:fontFamily="@font/baloo_tamma"
+        android:text="@string/signup"
+        android:textColor="@color/Primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+</androidx.constraintlayout.widget.ConstraintLayout>
